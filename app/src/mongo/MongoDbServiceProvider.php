@@ -4,6 +4,7 @@ namespace Matrix\MongoDb;
 
 use Illuminate\Support\ServiceProvider;
 use Matrix\MongoDb\Connector\ConnectionFactory;
+use Matrix\MongoDb\Eloquent\Model;
 
 class MongoDbServiceProvider extends ServiceProvider
 {
